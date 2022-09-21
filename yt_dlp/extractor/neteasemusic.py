@@ -6,7 +6,7 @@ from hashlib import md5
 
 from .common import InfoExtractor
 from ..compat import compat_str, compat_urllib_parse_urlencode
-from ..utils import float_or_none, sanitized_Request
+from ..utils import float_or_none, int_or_none, sanitized_Request
 
 
 class NetEaseMusicBaseIE(InfoExtractor):
@@ -46,7 +46,7 @@ class NetEaseMusicBaseIE(InfoExtractor):
                     formats.append({
                         'url': song_url,
                         'ext': details.get('extension'),
-                        'abr': float_or_none(details.get('bitrate'), scale=1000),
+                        'abr': int_or_none(details.get('bitrate'), scale=1000),
                         'format_id': song_format,
                         'filesize': details.get('size'),
                         'asr': details.get('sr')
