@@ -2127,6 +2127,7 @@ class InfoExtractor:
                     if mobj:
                         abr, vbr = mobj.groups()
                         abr, vbr = float_or_none(abr, 1000), float_or_none(vbr, 1000)
+                        abr = int(abr)
                         f.update({
                             'vbr': vbr,
                             'abr': abr,

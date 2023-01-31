@@ -15,7 +15,7 @@ from ..utils import (
     ExtractorError,
     bytes_to_intlist,
     error_to_compat_str,
-    float_or_none,
+    int_or_none,
     int_or_none,
     intlist_to_bytes,
     sanitized_Request,
@@ -121,7 +121,7 @@ class NetEaseMusicBaseIE(InfoExtractor):
                     formats.append({
                         'url': song_url,
                         'ext': details.get('extension'),
-                        'abr': float_or_none(song.get('br'), scale=1000),
+                        'abr': int_or_none(song.get('br'), scale=1000),
                         'format_id': song_format,
                         'filesize': int_or_none(song.get('size')),
                         'asr': int_or_none(details.get('sr')),
