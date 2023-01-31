@@ -16,7 +16,6 @@ from ..utils import (
     bytes_to_intlist,
     error_to_compat_str,
     int_or_none,
-    int_or_none,
     intlist_to_bytes,
     sanitized_Request,
     try_get,
