@@ -6492,7 +6492,7 @@ class FormatSorter:
             if format.get('vcodec') != 'none' and format.get('vbr') is None:
                 format['vbr'] = format.get('tbr') - format.get('abr', 0)
             if format.get('acodec') != 'none' and format.get('abr') is None:
-                format['abr'] = format.get('tbr') - format.get('vbr', 0)
+                format['abr'] = int(format.get('tbr') - format.get('vbr', 0))
 
         return tuple(self._calculate_field_preference(format, field) for field in self._order)
 
