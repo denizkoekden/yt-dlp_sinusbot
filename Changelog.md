@@ -4,6 +4,16 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.12.13.120820
+
+#### Core changes
+- [change formatid](https://github.com/yt-dlp/yt-dlp/commit/318e9241aa0ac5d18b4a6d3440f9f70fb76e23b7) by [pukkandan](https://github.com/pukkandan)
+- [change tbr in tests from float to int](https://github.com/yt-dlp/yt-dlp/commit/309073110196b0ff2391727b94621587639b794b) by [pukkandan](https://github.com/pukkandan)
+- [fix linter](https://github.com/yt-dlp/yt-dlp/commit/ae953a1f41cf3616008aa65706a5e4e1a45ff3cf) by [pukkandan](https://github.com/pukkandan)
+- [fix tests](https://github.com/yt-dlp/yt-dlp/commit/fd379ad6606b10daf9b494cdec3db6ad2e142b95) by [pukkandan](https://github.com/pukkandan)
+- [make changes for sinusbot to new release](https://github.com/yt-dlp/yt-dlp/commit/0fbdfe10b0606ae54cf08d889156b5ac695dbe4f) by [pukkandan](https://github.com/pukkandan)
+- [revert changes](https://github.com/yt-dlp/yt-dlp/commit/d46652681530cf203d94594242daaf149e6a3e6f) by [pukkandan](https://github.com/pukkandan)
+
 ### 2023.09.24
 
 #### Important changes
