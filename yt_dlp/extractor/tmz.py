@@ -93,7 +93,7 @@ class TMZIE(InfoExtractor):
                 'uploader': 'TMZ Staff',
                 'upload_date': '20161026',
                 'thumbnail': 'https://imagez.tmz.com/image/0d/4by3/2016/10/27/0d904814d4a75dcf9cc3b8cfd1edc1a3_xl.jpg',
-                'duration': 128.0,
+                'duration': 128,
             },
         },
         {

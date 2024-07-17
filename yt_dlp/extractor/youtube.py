@@ -1405,7 +1405,7 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
                 'description': 'md5:8f5e2b82460520b619ccac1f509d43bf',
                 'duration': 244,
                 'upload_date': '20131011',
-                'abr': 129.495,
+                'abr': 129,
                 'like_count': int,
                 'channel_id': 'UChuZAo1RKL85gev3Eal9_zg',
                 'playable_in_embed': True,
