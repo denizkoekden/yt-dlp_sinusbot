@@ -1273,7 +1273,7 @@ jwplayer("mediaplayer").setup({"abouttext":"Visit Indie DB","aboutlink":"http:\/
                     'video_ext': 'none',
                     'abr': 128,
                 }, {
-                    'format_id': 'video=100000',
+                    'format_id': 'video=100',
                     'manifest_url': 'https://sdn-global-streaming-cache-3qsdn.akamaized.net/stream/3144/files/17/07/672975/3144-kZT4LWMQw6Rh7Kpd.ism/manifest.mpd',
                     'ext': 'mp4',
                     'width': 336,
@@ -1290,7 +1290,7 @@ jwplayer("mediaplayer").setup({"abouttext":"Visit Indie DB","aboutlink":"http:\/
                     'audio_ext': 'none',
                     'vbr': 100,
                 }, {
-                    'format_id': 'video=326000',
+                    'format_id': 'video=326',
                     'manifest_url': 'https://sdn-global-streaming-cache-3qsdn.akamaized.net/stream/3144/files/17/07/672975/3144-kZT4LWMQw6Rh7Kpd.ism/manifest.mpd',
                     'ext': 'mp4',
                     'width': 562,
@@ -1307,7 +1307,7 @@ jwplayer("mediaplayer").setup({"abouttext":"Visit Indie DB","aboutlink":"http:\/
                     'audio_ext': 'none',
                     'vbr': 326,
                 }, {
-                    'format_id': 'video=698000',
+                    'format_id': 'video=698',
                     'manifest_url': 'https://sdn-global-streaming-cache-3qsdn.akamaized.net/stream/3144/files/17/07/672975/3144-kZT4LWMQw6Rh7Kpd.ism/manifest.mpd',
                     'ext': 'mp4',
                     'width': 844,
@@ -1324,7 +1324,7 @@ jwplayer("mediaplayer").setup({"abouttext":"Visit Indie DB","aboutlink":"http:\/
                     'audio_ext': 'none',
                     'vbr': 698,
                 }, {
-                    'format_id': 'video=1493000',
+                    'format_id': 'video=1493',
                     'manifest_url': 'https://sdn-global-streaming-cache-3qsdn.akamaized.net/stream/3144/files/17/07/672975/3144-kZT4LWMQw6Rh7Kpd.ism/manifest.mpd',
                     'ext': 'mp4',
                     'width': 1126,
@@ -1341,7 +1341,7 @@ jwplayer("mediaplayer").setup({"abouttext":"Visit Indie DB","aboutlink":"http:\/
                     'audio_ext': 'none',
                     'vbr': 1493,
                 }, {
-                    'format_id': 'video=4482000',
+                    'format_id': 'video=448',
                     'manifest_url': 'https://sdn-global-streaming-cache-3qsdn.akamaized.net/stream/3144/files/17/07/672975/3144-kZT4LWMQw6Rh7Kpd.ism/manifest.mpd',
                     'ext': 'mp4',
                     'width': 1688,
