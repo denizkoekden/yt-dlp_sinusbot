@@ -3916,7 +3916,7 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
                             video_id=video_id, only_once=True)
                     continue
 
-            tbr = float_or_none(fmt.get('averageBitrate') or fmt.get('bitrate'), 1000)
+            tbr = int_or_none(fmt.get('averageBitrate') or fmt.get('bitrate'), 1000)
             format_duration = traverse_obj(fmt, ('approxDurationMs', {lambda x: float_or_none(x, 1000)}))
             # Some formats may have much smaller duration than others (possibly damaged during encoding)
             # E.g. 2-nOtRESiUc Ref: https://github.com/yt-dlp/yt-dlp/issues/2823

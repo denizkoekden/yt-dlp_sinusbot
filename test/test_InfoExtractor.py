@@ -899,7 +899,7 @@ jwplayer("mediaplayer").setup({"abouttext":"Visit Indie DB","aboutlink":"http:\/
                     'acodec': 'mp4a.40.2',
                     'audio_ext': 'mp4',
                     'video_ext': 'none',
-                    'abr': 41.457,
+                    'abr': 41,
                 }, {
                     'format_id': '263',
                     'format_index': None,
@@ -1260,7 +1260,7 @@ jwplayer("mediaplayer").setup({"abouttext":"Visit Indie DB","aboutlink":"http:\/
                     'format_id': 'audio=128001',
                     'manifest_url': 'https://sdn-global-streaming-cache-3qsdn.akamaized.net/stream/3144/files/17/07/672975/3144-kZT4LWMQw6Rh7Kpd.ism/manifest.mpd',
                     'ext': 'm4a',
-                    'tbr': 128.001,
+                    'tbr': 128,
                     'asr': 48000,
                     'format_note': 'DASH audio',
                     'container': 'm4a_dash',
@@ -1271,7 +1271,7 @@ jwplayer("mediaplayer").setup({"abouttext":"Visit Indie DB","aboutlink":"http:\/
                     'protocol': 'http_dash_segments',
                     'audio_ext': 'm4a',
                     'video_ext': 'none',
-                    'abr': 128.001,
+                    'abr': 128,
                 }, {
                     'format_id': 'video=100000',
                     'manifest_url': 'https://sdn-global-streaming-cache-3qsdn.akamaized.net/stream/3144/files/17/07/672975/3144-kZT4LWMQw6Rh7Kpd.ism/manifest.mpd',
