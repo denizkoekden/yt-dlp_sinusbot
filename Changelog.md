@@ -4,6 +4,15 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2024.07.23.111800
+
+#### Core changes
+- [change test info](https://github.com/yt-dlp/yt-dlp/commit/2da55e564740ec306b15ad71474d647a4b727b52) by [pukkandan](https://github.com/pukkandan)
+- [fix tests](https://github.com/yt-dlp/yt-dlp/commit/9b09be31d0b5898fd54f7abd4fcb15496edebdae) by [pukkandan](https://github.com/pukkandan)
+- [fix tests](https://github.com/yt-dlp/yt-dlp/commit/23fc1167b3510942e10e1145ff1f6ef51f7bb22a) by [pukkandan](https://github.com/pukkandan)
+- [implement changes for sinusbot](https://github.com/yt-dlp/yt-dlp/commit/e52dea51f4c952f3884bf21ba62eb3f422bdf827) by [pukkandan](https://github.com/pukkandan)
+- [use working tests](https://github.com/yt-dlp/yt-dlp/commit/5bf516969d1659f1eee3a99df11bc71b8fbb8ed3) by [pukkandan](https://github.com/pukkandan)
+
 ### 2024.07.16
 
 #### Core changes
